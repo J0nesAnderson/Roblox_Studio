@@ -1,0 +1,21 @@
+local TweenService = game:GetService("TweenService")
+local Part = script.Parent
+local TI1 = TweenInfo.new(
+.445,
+Enum.EasingStyle.Linear,
+Enum.EasingDirection.Out,
+0,
+false,
+0
+end
+
+local selectedColour = Color3.fromRGB(188, 27, 27)
+local Goals = {
+Color = selectedColour
+}
+
+local tweening = TweenService:Create(Part, TI1, Goals)
+
+if Part.Colour then
+tweening:Play()
+end
