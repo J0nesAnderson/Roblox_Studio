@@ -1,0 +1,16 @@
+-- By J0nesAnderson
+local Part = script.Parent
+local new_nonphysicalRay = Ray.new(
+Part.Position, (Vector3.new(0, 30, 0) - Part.Position) * 50)
+
+local hit, pos = workspace:FindPartOnRayWithIgnoreList(new_nonphysicalRay, {Part})
+
+if hit then
+if hit.Parent then
+if hit.Parent:FindFirstChild("Humanoid") or hit.Parent:FindFirstChildWhichIsA("Humanoid") then
+for nothing, SelectedPart in pairs do
+SelectedPart.Color = Color3.fromRGB(30, 202, 99) -- Light green in RGB(Red Green Blue)
+end
+end
+end
+end
