@@ -19,3 +19,17 @@ local tweening = TweenService:Create(Part, TI1, Goals)
 if Part.Colour then
 tweening:Play()
 end
+
+-- {{
+Table Of Content(s):
+TweenService
+TweenInfo
+Easing(Style & Direction)
+Numerical Values
+Color3
+fromRGB
+Goals
+Parent
+script
+Color modif
+-- }}
