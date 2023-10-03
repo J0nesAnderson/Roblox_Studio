@@ -1,0 +1,9 @@
+local Container = Instance.new("Folder", game.ReplicatedStorage)
+Container.Name = "EventFolder"
+local RemoteEvent = Instance.new("RemoteEvent", Container)
+
+RemoteEvent.OnServerEvent:Connect(function(player)
+if player then
+
+  end
+end)
