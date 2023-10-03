@@ -1,4 +1,3 @@
--- By J0nesAnderson
 local Part = script.Parent
 local new_nonphysicalRay = Ray.new(
 Part.Position, (Vector3.new(0, 30, 0) - Part.Position) * 50)
