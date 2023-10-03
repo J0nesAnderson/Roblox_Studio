@@ -13,3 +13,20 @@ end
 end
 end
 end
+
+-- {{
+Table Of Content(s):
+Ray(Raycast)
+hit
+Parent
+Color
+Color3
+Variables
+Position(Vector3)
+Range thoroughly using multiplication(*)
+script
+for i, v in pairs function
+in pairs function
+workspace
+:FindPartOnRayWithIgnoreList
+-- }}
